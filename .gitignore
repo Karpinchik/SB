@@ -1,0 +1,6 @@
+# Default ignored files
+/workspace.xml
+.idea/*
+data_db.php
+test.php
+search.php

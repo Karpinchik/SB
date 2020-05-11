@@ -10,7 +10,7 @@ $(document).ready(function() {
             data: {data: text, count: count_words},
             success: function(response){
                 var res = JSON.parse(response);
-                $('#one').text(Object.keys(res));
+                        $('#one').text(Object.keys(res));
 
             }
         });
